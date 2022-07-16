@@ -1,0 +1,632 @@
+/*-- Google Font--*/
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&family=Roboto+Condensed:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&family=Raleway:wght@400;600&display=swap");
+
+/* Color palette */
+spam {
+  color: #ba8538;
+}
+spam {
+  color: #f2b705;
+}
+spam {
+  color: #fdf3cc;
+}
+spam {
+  color: #2d3340;
+}
+spam {
+  color: #8bab6a;
+}
+
+/* General style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  color: #fdf3cc;
+  font-size: 2.4rem;
+  /* font-family: "Roboto", sans-serif; */
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url("../img/Background2.png");
+  background-repeat: repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* text style*/
+.title1 {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  font-size: 7rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.title2 {
+  margin: 5rem;
+  font-size: 6.4rem;
+  font-weight: bold;
+  color: #8bab6a;
+  text-align: center;
+}
+
+.title3 {
+  margin-top: 10rem;
+  margin-bottom: 2rem;
+  font-size: 4rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+.mainParagraph {
+  text-shadow: 2px 2px 4px black;
+  margin-bottom: 2rem;
+}
+
+.secondaryParagraph {
+  font-size: 2rem;
+}
+
+.importantWord {
+  font-weight: 900;
+}
+
+/* Header style*/
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 800;
+}
+.NavBarBg {
+  position: absolute;
+  top: 0px;
+  min-height: 250px;
+  z-index: 2;
+}
+
+#home {
+  position: absolute;
+  top: 3rem;
+  z-index: 4;
+}
+
+.navbar-brand img {
+  width: 18rem;
+  height: 15rem;
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  margin: 0 30px;
+}
+
+.NavBarOptions a {
+  padding: 0.8rem 1.2rem;
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: #f5f5f5;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  transition: all 0.2s;
+}
+
+.NavBarOptions-Active,
+.NavBarOptions a:hover {
+  padding: 0.8rem 1.2rem;
+  border-radius: 2rem;
+  color: #f5f5f5;
+  background-color: #ba8538;
+}
+
+/*Carousel stye*/
+
+.carousel-item img {
+  filter: brightness(75%);
+}
+
+.carousel-item {
+  background-color: #212529;
+}
+
+.carousel-cap {
+  max-width: 50rem;
+  position: absolute;
+  top: 30%;
+  right: 4rem;
+}
+
+.carousel-cap .name {
+  font-family: "Ephesis", cursive;
+  font-size: 11rem;
+  color: #ba8538;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.carousel-cap .phrase {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fdf3cc;
+  text-align: justify;
+}
+
+.productImage {
+  width: 80%;
+  height: auto;
+}
+
+/* Products section*/
+
+.productsCard {
+  position: relative;
+  transition-duration: 0.5s;
+  text-decoration: none;
+}
+
+.productsCard:hover {
+  transform: translateY(-3rem);
+}
+
+.productsCard img {
+  position: absolute;
+  width: 20rem;
+  border: 0.7rem solid #fdf3cc;
+  border-radius: 100%;
+}
+
+.productsCard p {
+  display: flex;
+  width: 20rem;
+  align-items: flex-end;
+  background-color: #ba8538;
+  height: 35rem;
+  border-radius: 10rem;
+  padding: 10rem 1rem 5rem 1rem;
+}
+
+.container section a {
+  justify-content: space-evenly;
+}
+
+/* Contact section*/
+
+.contactSection {
+  margin-top: 5rem;
+  position: absolute;
+}
+
+.contactSection img {
+  transition: 0.5s;
+}
+
+.contactSection img:hover {
+  transform: scale(1.1);
+}
+
+.contactSection a {
+  margin-right: 5rem;
+}
+
+/* SVG Decoration*/
+.decoration1 {
+  position: absolute;
+  top: 10rem;
+  z-index: 300;
+  right: 0rem;
+}
+
+.decoration2,
+.decoration2-1,
+.decoration4 {
+  position: absolute;
+  z-index: 300;
+  left: 0rem;
+}
+
+.decoration4 {
+  top: 207rem;
+  transform: rotate(180deg);
+}
+
+.decoration3 {
+  position: absolute;
+  z-index: 300;
+  right: 0rem;
+}
+
+.decoration5 {
+  position: absolute;
+  z-index: 300;
+  right: 0rem;
+}
+
+/* Product Page*/
+
+.margTp {
+  margin-top: 250px;
+}
+
+.grass {
+  background-image: url("../img/LeafDecoration3.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 300px;
+  height: 450px;
+  left: 0;
+  top: 300px;
+  transform: rotate(5deg);
+  margin-top: 50px;
+}
+
+.corn {
+  background-image: url("../img/CornKernelDecoration3.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom right;
+  position: absolute;
+  width: 300px;
+  height: 650px;
+  right: -2px;
+  top: 2325px;
+  z-index: -2;
+}
+
+.circleItem-1 {
+  height: 450px;
+  width: 450px;
+  background-image: url("../img/item1.png");
+  background-size: cover;
+  position: absolute;
+  border-radius: 50%;
+  border: 15px solid #ba8538;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
+}
+.circleItem-2 {
+  height: 450px;
+  width: 450px;
+  background-image: url("../img/item2.png");
+  background-size: cover;
+  position: absolute;
+  border-radius: 50%;
+  border: 15px solid #ba8538;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
+}
+.circleItem-3 {
+  height: 450px;
+  width: 450px;
+  background-image: url("../img/item3.png");
+  background-size: cover;
+  position: absolute;
+  border-radius: 50%;
+  border: 15px solid #ba8538;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
+}
+.circleItem-4 {
+  height: 450px;
+  width: 450px;
+  background-image: url("../img/item4.png");
+  background-size: cover;
+  position: absolute;
+  border-radius: 50%;
+  border: 15px solid #ba8538;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
+}
+
+.title4-r {
+  font-weight: 600;
+  text-align: right;
+  color: #f2b705;
+  font-size: 48px;
+  line-height: 56px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.title5-r {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #8bab6a;
+  text-align: right;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.cardItemContainer-r {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  height: 450px;
+}
+
+.cardItemInfo-r {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 55rem;
+  align-content: center;
+}
+
+.infoCard-r {
+  text-align: right;
+  font-size: 2.5rem;
+}
+
+.cardItemInfo-l {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 55rem;
+  align-content: center;
+}
+.cardItemContainer-l {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 450px;
+}
+
+.title4-l {
+  font-weight: 600;
+  text-align: left;
+  color: #f2b705;
+  font-size: 48px;
+  line-height: 56px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.title5-l {
+  margin: 2rem;
+  font-weight: bold;
+  color: #8bab6a;
+  text-align: left;
+  font-size: 20px;
+  line-height: 23px;
+}
+.infoCard-l {
+  text-align: left;
+  font-size: 2.5rem;
+}
+
+.navbar-collapse {
+  justify-content: center;
+}
+
+/* Mobile's Display*/
+@media only screen and (max-width: 1200px) {
+  .carousel-cap .name {
+    font-size: 8rem;
+  }
+
+  .carousel-cap {
+    max-width: 40rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .carousel-cap .name {
+    margin-top: -1rem;
+  }
+
+  .carousel-inner {
+    top: 4rem;
+  }
+
+  .productsCard img {
+    width: 12rem;
+  }
+
+  .productsCard .names3 {
+    padding: 10rem 1rem 3rem 1rem;
+  }
+  .productsCard p {
+    height: 30rem;
+    width: 12rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .decoration4 {
+    top: 227rem;
+  }
+
+  .carousel-cap .name {
+    font-size: 6rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .carousel-inner {
+    top: 11rem;
+  }
+
+  .carousel-cap .name {
+    width: 115px;
+    font-size: 3rem;
+  }
+
+  .carousel-cap .phrase {
+    font-size: 1rem;
+  }
+
+  .carousel-cap {
+    top: 25%;
+    right: 1rem;
+  }
+
+  .carousel-cap {
+    max-width: 20rem;
+  }
+
+  .decoration1 {
+    display: none;
+  }
+
+  .container section a {
+    margin-bottom: 3rem;
+    justify-content: center;
+  }
+  .productsCard img {
+    width: 10rem;
+  }
+
+  .productsCard p {
+    font-size: small;
+    height: 22rem;
+    width: 10rem;
+    border-radius: 5rem;
+  }
+
+  .decoration4,
+  .decoration3 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .carousel-inner {
+    top: -1rem;
+  }
+
+  .carouContainerMobile {
+    width: 180px;
+    right: 10px;
+  }
+  .carousel-cap .name {
+    width: 190px;
+  }
+  .contactSection {
+    margin-top: 5rem;
+    position: absolute;
+    z-index: 900;
+  }
+  .carousel {
+    padding-top: 110px;
+  }
+  .navbar-brand img {
+    width: 10rem;
+    height: 10rem;
+  }
+  .grass {
+    width: 150px;
+    height: 200px;
+    margin-top: 0;
+  }
+  .corn {
+    width: 65px;
+    height: 200px;
+    right: -2px;
+    top: 1900px;
+  }
+  .title1 {
+    font-size: 32px;
+  }
+  .title2 {
+    font-size: 26px;
+  }
+
+  .title3 {
+    font-size: 24px;
+  }
+
+  .contactSection img {
+    width: 60px;
+  }
+
+  /* Cards's Right Side */
+
+  .title4-r {
+    margin-top: 30px;
+    font-size: 2.2rem;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .title5-r {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .infoCard-r,
+  .secondaryParagraph,
+  .mainParagraph,
+  .Paragraph {
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+  }
+
+  .names2 {
+    font-size: 12px;
+  }
+
+  .importantWord {
+    font-size: 16px;
+  }
+
+  .circleItem-1,
+  .circleItem-2,
+  .circleItem-3,
+  .circleItem-4 {
+    height: 150px;
+    width: 150px;
+    position: relative;
+    right: 0px;
+    margin: 0;
+    border: 8px solid #ba8538;
+  }
+
+  .cardItemInfo-r {
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .cardItemContainer-r {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+  }
+  /* Cards's Left Side */
+  .title4-l {
+    margin-top: 30px;
+    font-size: 2.2rem;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .title5-l {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .infoCard-l {
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+  }
+  .cardItemInfo-l {
+    margin: 0;
+    width: 100%;
+  }
+
+  .cardItemContainer-l {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+  }
+}

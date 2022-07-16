@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Bostrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="icon" href="./img/BlackLogo.svg">
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+    <title>Mr Peto</title>
+</head>
+
+<body>
+    <header>
+        <img class="img-fluid NavBarBg w-100" src="./img/NavbarBackground.svg" alt="background">
+        <nav class="navbar navbar-expand-lg navbar-dark p-0 bg-black shadow-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./img/WhiteTransparentLogo.svg"></a>
+                <button class="navbar-toggler mx-5" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav NavBarOptions">
+                        <a class="nav-link mx-5 text-center m-2" href="#">HOME</a>
+                        <a class="nav-link mx-5 text-center m-2" href="./products.html">PRODUCTOS</a>
+                        <a class="nav-link mx-5 text-center m-2" href="#aboutUs">QUIENES SOMOS</a>
+                        <a class="nav-link mx-5 text-center m-2" href="./index.html#contact">CONTACTO</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <img class='decoration1 img-fluid' src="./img/LeafDecoration1.svg" alt="decoration">
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/CarouselImage1.png" class="productImage img-fluid d-block m-auto w-100"
+                        alt="Product image 1">
+                    <div class="carousel-cap d-block carouContainerMobile">
+                        <h1 class="name text-center">Mr. Peto</h1>
+                        <p class="phrase">Arepas artesanales de maíz peto colombiano, ¡Listas para cocinar!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/CarouselImage2.png" class="productImage img-fluid d-block m-auto w-100"
+                        alt="Product image 2">
+                    <div class="carousel-cap d-block carouContainerMobile">
+                        <h1 class="name text-center">Mr. Peto</h1>
+                        <p class="phrase">Elaboramos y comercializamos arepas con un sabor único, ¡Pruébalas con tu
+                            desayuno, almuerzo
+                            o cena, para las onces o para cualquier ocasión especial! </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/CarouselImage3.png" class="productImage img-fluid d-block m-auto w-100"
+                        alt="Product image 3">
+                    <div class="carousel-cap d-block carouContainerMobile">
+                        <h1 class="name text-center">Mr. Peto</h1>
+                        <p class="phrase">Nuestra receta familiar es sólo de maíz peto, sin conservantes, mantequilla
+                            100% de leche y con insumos de primera calidad.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img class="img-fluid decoration2 d-none d-sm-block" src="./img/LeafDecoration2.svg" alt="decoration">
+        <img class="img-fluid decoration2-1 d-block d-sm-none" src="./img/LeafDecoration2.1.svg" alt="decoration">
+        <img class="img-fluid decoration3" src="./img/CornKernelDecoration1.svg" alt="decoration">
+        <h3 id="products" class="title1 container">PRODUCTOS</h3>
+        <div class="container ">
+            <section class="row d-flex mt-3">
+                <a href='./products.html#aExtradelgada' class="col-6 col-md-3 productsCard d-flex align-items-start">
+                    <img src="./img/item1.svg" alt="product image" class="imgProducto img-fluid">
+                    <p class="secondaryParagraph text-center justify-content-center names1">AREPA<br>EXTRA<br>DELGADA
+                    </p>
+                </a>
+
+                <a href='./products.html#aCoctelera' class="col-6 col-md-3 productsCard d-flex align-items-start">
+                    <img src="./img/item2.svg" alt="product image" class="imgProducto img-fluid">
+                    <p class="secondaryParagraph text-center justify-content-center names2">AREPA<br>COCTELERA</p>
+                </a>
+
+                <a href='./products.html#aSoloPeto' class="col-6 col-md-3 productsCard d-flex align-items-start">
+                    <img src="./img/item4.svg" alt="product image" class="imgProducto img-fluid">
+                    <p class="secondaryParagraph text-center justify-content-center names3">AREPA<br>EXTRA
+                        DELGADA<br>SOLO
+                        PETO
+                    </p>
+                </a>
+
+                <a href='./products.html#aGrande' class="col-6 col-md-3 productsCard d-flex align-items-start">
+                    <img src="./img/item3.svg" alt="product image" class="imgProducto img-fluid">
+                    <p class="secondaryParagraph text-center justify-content-center names4">AREPA<br>GRANDE</p>
+                </a>
+
+            </section>
+
+            <h3 id="aboutUs" class="title1">SOBRE NOSOTROS</h3>
+
+            <H4 class="title2 ">“Sabor y tradición para compartir”</H4>
+            <p class="mainParagraph ">Soy Javier, y junto a Lore, mi esposa y el principal soporte de este
+                sueño,
+                queremos transmitirles este
+                amor
+                por la cocina, por nuestra cultura y sabor a todos los que se den la oportunidad de conocernos.</p>
+
+            <p class="secondaryParagraph ">Y que mejor manera que usando para nuestros productos insumos de
+                primera
+                calidad, a base de maíz peto,
+                con la
+                mejor mantequilla 100% de leche, sin conservante y lo más importante ¡con todo el amor de nuestra
+                familia a
+                la suya!
+                Mr. Peto nació en el 2017, con la nostalgia al recordar de pequeño las arepas que hacía mamá, era todo
+                un
+                acontecimiento ¡tan deliciosas que se terminaban en un abrir y cerrar de ojos!</p>
+
+            <p class="secondaryParagraph"> Nuestro crecimiento surge a partir de la pandemia en 2020, cuando Mr. Peto se
+                convirtió en una
+                alternativa
+                para la comunidad de nuestra bella Bogotá, al ser productos congelados, les brindaba mayor comodidad sin
+                sacrificar ¡lo rico de las arepas! permitiéndonos día a día hacer crecer nuestra marca.
+                Desde entonces, hemos cumplido metas muy importantes, como mejorar nuestros espacios de producción y
+                adquirir maquinarias que nos permite ofrecerles productos de alta calidad artesanal.
+                ¡Aquí estamos y aquí seguiremos, siendo un gran equipo de trabajo, familiar y con grandes sueños por
+                cumplir! <br />
+                Acompáñanos...
+            </p>
+        </div>
+        <img class="img-fluid decoration4" src="./img/CornKernelDecoration1.svg" alt="decoration">
+        <div class="container">
+
+            <h5 class="title3">Misión</h5>
+
+            <p class="Paragraph">“Ser reconocidos como una marca promotora de la buena alimentación con nuestra variedad
+                de productos de
+                calidad, naturales y nutritivos a base de maíz peto colombiano, apoyando la producción nacional y
+                conservando nuestras tradiciones”.</p>
+
+            <h5 class="title3">Visión</h5>
+
+            <p class="Paragraph">“Ser una empresa sólida en el mercado de alimentos artesanales a nivel nacional con
+                productos de maíz
+                peto
+                colombiano con un alto impacto sostenible, reconocida por la calidad y cercanía de nuestra marca”.</p>
+
+            <h5 class="title3">Nos guian nuestros valores</h5>
+
+            <p class="Paragraph">El <span class="importantWord">amor</span>, que queremos transmitir por la cultura
+                colombiana, los
+                recuerdos y los buenos momentos alrededor
+                de
+                la mesa.</p>
+
+            <p class="Paragraph">
+                La <span class="importantWord">empatía</span>, por todos nuestros iguales.</p>
+            <p class="Paragraph">La <span class="importantWord">responsabilidad</span>, de hacer productos de calidad y
+                que aporten
+                beneficios a la vida de nuestros
+                clientes.
+            </p>
+
+            <p class="Paragraph">
+                El <span class="importantWord">respeto</span>, por nuestros clientes, nuestro personal, nuestra marca y
+                al proceso de fabricación de
+                nuestros
+                productos.</p>
+
+            <h5 class="title3">Nos mueve un propósito</h5>
+
+            <p class="Paragraph">Trabajamos día a día con la convicción de que estamos aportando salud y bienestar a las
+                familias que nos
+                elijen, ofreciendo siempre productos hechos con el mejor sabor, amor y el respeto que merecen.</p>
+
+            <h3 id="contact" class="title1 text-start">CONTACTO</h3>
+            <div class="contactSection mb-3">
+                <a href="https://wa.me/573016026793?text=Hola%20Mr.%20el%20Peto%20quiero%20consultarles"><img
+                        src="./img/WhatsAppLogo.svg" alt="logo red social" target="_blank" /></a>
+                <a href="https://www.facebook.com/MrPetroProducts/" target="_blank"><img src="./img/FacebookLogo.svg"
+                        alt="logo red social" /></a>
+                <a href="https://www.instagram.com/mr.peto/?hl=es" target="_blank"><img src="./img/InstagramLogo.svg"
+                        alt="logo red social" /></a>
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <img src="./img/table.svg" alt="decoration" class="img-fluid decoration5">
+    </footer>
+
+
+    </div>
+
+    <script src="./js/app.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+        </script>
+    <script>
+        ScrollReveal().reveal('.productsCard', {
+            delay: 400
+        });
+        ScrollReveal().reveal('.contactSection', {
+            delay: 400
+        });
+    </script>
+</body>
+
+</html>
