@@ -630,3 +630,20 @@ p {
     width: 100%;
   }
 }
+
+.whatsappBtn {
+  height: 60px;
+  width: 60px;
+  bottom: 30px;
+  right: 30px;
+  position: fixed;
+  border-radius: 50px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.13), 0 6px 6px rgba(0, 0, 0, 0.13);
+  transition: all 0.3s;
+  z-index: 930;
+}
+
+.whatsappBtn:hover {
+  filter: contrast(2);
+  transition: all 0.4s;
+}
